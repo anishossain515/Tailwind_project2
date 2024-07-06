@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .hover{
+        @apply hover:text-[#F44335] hover:underline decoration-[#F44335] decoration-2;
+    }
+
+    .hover-box{
+        @apply hover:scale-105 transition-all duration-300 cursor-pointer;
+    }
+
+    .number{
+        @apply text-[#00FF84] text-xl font-bold;
+    }
+
+    .learn-p{
+        @apply md:text-lg text-base border border-[#F44335] rounded-full inline px-3 py-1 ;
+    }
+
+    .skill{
+        @apply space-x-4  space-y-4 md:space-y-0 flex items-center flex-wrap;
+    }
+
+    .course-btn{
+        @apply bg-white border border-[#232323] px-10 py-2 text-[#2D3142] text-lg rounded-full;
+    }
+
+    .hover-p{
+        @apply hover:underline decoration-[#20484F] decoration-2 underline-offset-4 text-[#20484F];
+    }
+}
